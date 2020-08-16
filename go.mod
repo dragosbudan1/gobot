@@ -1,9 +1,10 @@
-module github.com/dragosbudan1/gobot
+module gobot.io/x/gobot
 
 go 1.13
 
 require (
 	github.com/bmizerany/pat v0.0.0-20170815010413-6226ea591a40
+	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
 	github.com/creack/goselect v0.1.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/donovanhide/eventsource v0.0.0-20171031113327-3ed64d21fb0b
@@ -27,12 +28,12 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/raff/goble v0.0.0-20200327175727-d63360dcfd80 // indirect
 	github.com/sigurn/crc8 v0.0.0-20160107002456-e55481d6f45c
+	github.com/sigurn/utils v0.0.0-20190728110027-e1fefb11a144 // indirect
 	github.com/stretchr/testify v1.6.1
 	github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07
 	github.com/urfave/cli v1.22.4
 	github.com/veandco/go-sdl2 v0.4.4
 	go.bug.st/serial.v1 v0.0.0-20191202182710-24a6610f0541
-	gobot.io/x/gobot v1.14.0
 	gocv.io/x/gocv v0.24.0
 	golang.org/x/crypto v0.0.0-20200728195943-123391ffb6de // indirect
 	golang.org/x/net v0.0.0-20200813134508-3edf25e44fcc
